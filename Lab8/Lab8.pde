@@ -3,10 +3,10 @@ Movie movie;
 
 void setup()
 {
-  size(800, 600);
+  size(1900, 1050);
   
   movie = new Movie(this, "ballThrow.mp4");
-  movie.play();
+  movie.loop();
 }
 
 void draw()
